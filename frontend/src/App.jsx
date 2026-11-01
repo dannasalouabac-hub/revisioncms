@@ -21,10 +21,10 @@ function App() {
       {etudiants.map((etudiant) => (          
         <li key={etudiant._id}>            
             {etudiant.nom} — {etudiant.email}          
-          </li>        
+        </li>        
           ))}      
-         </ul>    
-        </div>  
-        ); 
-      } 
+    </ul>    
+  </div>  
+  ); 
+} 
 export default App;
